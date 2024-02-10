@@ -1,0 +1,23 @@
+.navbar{
+    background-color: #2C3E50;
+    position: fixed;
+    z-index: 1;
+}
+.nav-link , .navbar-brand{
+    color:  white;
+    font-weight: 700;
+    .nav-link{
+        font-size: 32px;
+    }
+}
+.btn-color{
+    background-color:#1ABC9C ;
+    border-radius: 5px;
+}
+.nav-item
+{
+    margin: 0 20px 0 0;
+}
+.navbar-brand{
+    font-size: 32px;
+}

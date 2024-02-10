@@ -1,0 +1,9 @@
+.homesec{
+    background-color: #1ABC9C;
+}
+.img{
+    width: 15.625rem;
+}
+.line::after ,.line::before{
+    background-color: white;
+}

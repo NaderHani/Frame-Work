@@ -1,0 +1,56 @@
+.line::after ,.line::before{
+    background-color: #2C3E50;
+}
+.head-name{
+    color: #2C3E50;
+}
+img{
+    width: 100%;
+}
+.item{
+    background-color: #2C3E50;
+    border-radius: 20px;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+}
+.item .box{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    position: absolute;
+    top:100%;
+    left:0;
+    right: 0;
+    height: 100%;
+    background-color: #1abc9c92;
+    transition: top 0.5s;
+}
+.item:hover .box{
+    top: 0;
+}
+.BackLight{
+    position: fixed;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.412);
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    justify-content: center;
+    align-items: center;
+}
+.boxImg{
+    background-position: center center;
+    background-size: cover;
+    width: 600px;
+    height: 70vh;
+    border-radius: 20px;
+}
+.boxImg i{
+    position: absolute;
+    right: 100px;
+    color: #fff;
+}
